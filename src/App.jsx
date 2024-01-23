@@ -1,6 +1,7 @@
 
 import './App.css'
 import Deposit from './Deposite/Deposit'
+
 import Navbar from './Navbar/Navbar'
 
 
@@ -11,14 +12,6 @@ function App() {
     <>
      <Navbar/>
     <Deposit/>
-
-
-
-
-
-
-
-
 
 
 
