@@ -11,7 +11,10 @@ const Section = () => {
         .then(data =>SetDonation(data))
     },[])
   return (
-    <div>
+    <div className="columns-1 lg:grid grid-cols-2">
+        <div>
+            <p>Different way to helps other</p>
+        </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         {
            donation.map( donations =><Card key={donations} donations={donations}></Card> )
