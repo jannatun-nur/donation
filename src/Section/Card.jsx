@@ -5,12 +5,13 @@ const Card = ( {donations}) => {
     return (
         <div>
             <section className="">
-                <div className="flex gap-4 bg-black">
-                    <section>
-                    <img className="h-10 w-10 lg:h-16 lg:w-16 rounded-full" src={images} alt="" />
+                <div className="columns-1 gap-4 bg-yellow-300 p-6 lg:w-9/12">
+                    <section>  
+                    <img className="h-10 w-10 lg:h-16 lg:w-16 rounded-full lg:ml-44" src={images} alt="" />
                     </section>
-                    <section>
-                            <p>{name}</p>
+                    <section className="text-gray-800">
+                            <p className="lg:text-2xl text-cyan-700">{name}</p>
+                            <p>{description}</p>
                     </section>
                 </div>
 	
