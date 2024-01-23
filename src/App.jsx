@@ -6,9 +6,9 @@ function App() {
  
 
   return (
-    <div className='bg-white'>
+    <>
      <Navbar/>
-    </div>
+    </>
   )
 }
 
