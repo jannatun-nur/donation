@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import Card from "./Card";
 
 const Section = () => {
     const [donation, SetDonation] = useState([]);
@@ -7,13 +8,13 @@ const Section = () => {
     useEffect( ()=>{
         fetch('section.json')
         .then(res => res.json())
-        .then(data =>SetDonation(data);)
+        .then(data =>SetDonation(data))
     },[])
   return (
     <div>
       <div>
         {
-            donation.map()
+           donation.map( donations =><Card key={donations} donations={donations}></Card> )
         }
       </div>
     </div>
