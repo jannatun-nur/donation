@@ -23,16 +23,18 @@ const Deposit = () => {
 
  return (
     <div>
-          <div className="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white">
-       <section className="bg-sky-500 p-5">
-       <p>Please deposit</p>
-       <input type="text" id="input-id" className="bg-white text-black" />
+       <p className="text-xl lg:text-4xl py-3">Show Your love 💙</p>
+      
+          <div className=" columns-1 gap-4 lg:grid grid-cols-2 w-9/12 mx-auto text-white">
+       <section className="bg-rose-500 p-10">
+       <p>Donate here</p>
+       <input type="text" id="input-id" placeholder="donate" className="bg-white text-black py-2 rounded-lg" />
 
-       <button onClick={handleClick} id="btn-deposit">Deposit</button>
+       <button onClick={handleClick} id="btn-deposit"></button>
      </section>
 
      <section className="bg-sky-500 p-5">
-       <p>Total amount</p>
+       <p>Your Donation</p>
        <p>
          $ <span id="total-depo">00</span>
        </p>

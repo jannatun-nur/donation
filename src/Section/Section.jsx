@@ -14,13 +14,13 @@ const Section = () => {
     <div className="columns-1 lg:grid grid-cols-2 rounded-lg my-6">
       <div>
         <p className="lg:text-4xl text-sky-600">Different way to helps other</p>
-        <p className="text-gray-800 pt-2">
+        <p className="text-gray-800 pt-2 text-xs">
           Every human being needs basic need. Without it no one can live
           comfortly.But sometime , some people became victim of situation. They
           can not provide their needs. Kindness try to helps them to get rid of
           the problems. Eveyone should helps other. that's why we are trying to
-          a part of your helpsness. Submit your email and information and let's
-          make proud of your kind heart.{" "}
+          a part of your helpsness. Submit your email and informations and let's
+          make proud of your kind heart.
         </p>
 
         {/* form */}
@@ -36,7 +36,7 @@ const Section = () => {
                   id="firstname"
                   type="text"
                   placeholder="First name"
-                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-3 bg-white"
+                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-2 lg:py-3 bg-white"
                 />
               </div>
               <div className="col-span-full sm:col-span-3">
@@ -45,7 +45,7 @@ const Section = () => {
                   id="lastname"
                   type="text"
                   placeholder="Last name"
-                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-3 bg-white"
+                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-2 lg:py-3 bg-white"
                 />
               </div>
               <div className="col-span-full sm:col-span-3">
@@ -54,7 +54,7 @@ const Section = () => {
                   id="email"
                   type="email"
                   placeholder="Email"
-                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-3 bg-white"
+                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-2 lg:py-3 bg-white"
                 />
               </div>
              
@@ -64,7 +64,7 @@ const Section = () => {
                   id="city"
                   type="text"
                   placeholder=""
-                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-3 bg-white"
+                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-2 lg:py-3 bg-white"
                 />
               </div>
               <div className="col-span-full sm:col-span-2">
@@ -73,7 +73,7 @@ const Section = () => {
                   id=""
                   type="text"
                   placeholder=""
-                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-3 bg-white"
+                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-2 lg:py-3 bg-white"
                 />
               </div>
               <div className="col-span-full sm:col-span-2">
@@ -82,11 +82,11 @@ const Section = () => {
                   id="zip"
                   type="text"
                   placeholder=""
-                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-3 bg-white"
+                  className="w-full rounded-md focus:ring focus:ri focus:ri border border-cyan-800 text-gray-800 py-2 lg:py-3 bg-white"
                 />
               </div>
             </div>
-            <button></button>
+            <button className="lg:px-4 lg:py-2 py-2 rounded-lg text-white font-bold bg-cyan-700 ">Submit</button>
           </form>
         </section>
       </div>
