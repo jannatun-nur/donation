@@ -12,7 +12,7 @@ const Section = () => {
     },[])
   return (
     <div>
-      <div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {
            donation.map( donations =><Card key={donations} donations={donations}></Card> )
         }
