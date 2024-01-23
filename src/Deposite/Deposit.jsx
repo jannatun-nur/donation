@@ -6,14 +6,22 @@ const Deposit = () => {
             <section className="bg-sky-500 p-5">
         <p>Please deposit</p>
         <input type="text" id="input-id" className="bg-white text-black" />
-        <button id="deposit"
-        
-        
-        >Deposit</button>
+
+        <button id="btn-deposit" >Deposit</button>
+
+       
             </section>
+
+
+
+
+
+
+
+
             <section className="bg-sky-500 p-5">
         <p>Total amount</p>
-        <input type="text" className="bg-white text-black" />
+       <p >$ <span id='total-depo'>00</span></p>
             </section>
 
          </div>
