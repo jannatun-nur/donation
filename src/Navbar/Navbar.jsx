@@ -21,7 +21,8 @@ const Navbar = () => {
        rounded-box w-52"
             >
               <button
-                className="px-4 py-2  bg-white 
+              
+             className="px-4 py-2  bg-white 
       text-cyan-700 hover:bg-cyan-700 hover:text-white"
               >
                 Home

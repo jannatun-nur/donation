@@ -3,6 +3,7 @@ import About from './About/About'
 import './App.css'
 import Banner from './Banner/Banner'
 import Deposit from './Deposite/Deposit'
+import Footer from './Footer/Footer'
 
 import Navbar from './Navbar/Navbar'
 import Section from './Section/Section'
@@ -18,6 +19,7 @@ function App() {
      <Section/>
     <Deposit/>
     <About/>
+    <Footer/>
 
 
 

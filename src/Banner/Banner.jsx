@@ -16,7 +16,7 @@ const Banner = () => {
           </div>
           <div>
            
-            <img className='h-[60px] lg:h-[250px] top-14 lg:top-24 right-20 rounded-lg' src={slider} alt="" />
+            <img className='h-[150px] lg:h-[250px] top-14 lg:top-24 right-20 rounded-lg' src={slider} alt="" />
           </div>
         </div>
       </div>
