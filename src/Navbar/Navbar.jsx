@@ -28,12 +28,25 @@ const Navbar = () => {
                 Home
               </button>
               <button
+              onClick={(e) => {
+                e.preventDefault();
+                const aboutSection = document.getElementById("about");
+                aboutSection.scrollIntoView({ behavior: "smooth" });
+                setTimeout(() => aboutSection.focus(), 300);
+              }} 
                 className="px-4 py-2  bg-white 
       text-cyan-700 hover:bg-cyan-700 hover:text-white"
               >
+
                 About
               </button>
               <button
+              onClick={(e) => {
+                e.preventDefault();
+                const donationSection = document.getElementById("donation");
+                donationSection.scrollIntoView({ behavior: "smooth" });
+                setTimeout(() => donationSection.focus(), 300);
+              }} 
                 className="px-4 py-2  bg-white 
       text-cyan-700 hover:bg-cyan-700 hover:text-white"
               >

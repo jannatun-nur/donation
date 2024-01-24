@@ -22,7 +22,7 @@ const Deposit = () => {
  };
 
  return (
-    <div>
+    <div id="donation">
        <p className="text-xl lg:text-4xl py-3 text-red-800">Show Your love 💙</p>
       
           <div className=" columns-1 gap-4 lg:grid grid-cols-2 w-9/12 mx-auto text-white ">

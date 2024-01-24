@@ -3,7 +3,7 @@
 const About = () => {
     return (
         <div>
-           <div className="mx-auto w-full lg:w-5/12 bg-rose-400 p-6 rounded-lg my-4">
+           <div id="about" className="mx-auto w-full lg:w-5/12 bg-rose-400 p-6 rounded-lg my-4">
             <p className="text-xs lg:text-2xl text-gray-800">About Us</p>
             <p className="text-xs lg:text-xl text-gray-800"> Kindness is a blessing for thoose people who are not able to get all facilities.
                 Kindness brings for them a litle bit helps.It was created since 2003. Our main target is 
