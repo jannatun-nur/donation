@@ -1,4 +1,5 @@
 
+import About from './About/About'
 import './App.css'
 // import Banner from './Banner/Banner'
 import Deposit from './Deposite/Deposit'
@@ -16,6 +17,7 @@ function App() {
      {/* <Banner/> */}
      <Section/>
     <Deposit/>
+    <About/>
 
 
 
