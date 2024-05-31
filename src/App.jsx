@@ -13,7 +13,7 @@ function App() {
  
 
   return (
-    <div className='bg-white'>
+    <div className='bg-white lg:px-4 md:px-2 px-3'>
      <Navbar/>
      <Banner/>
      <Section/>

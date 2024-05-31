@@ -11,9 +11,9 @@ const Section = () => {
       .then((data) => SetDonation(data));
   }, []);
   return (
-    <div className="columns-1 lg:grid grid-cols-2 rounded-lg my-6">
-      <div>
-        <p className="lg:text-4xl text-sky-600">Different way to helps other</p>
+    <div className="columns-1  lg:flex lg:justify-between rounded-lg my-6 px-2">
+      <div className="">
+        <p className="  lg:text-4xl text-center md:text-2xl text-sky-600">Different way to helps other</p>
         <p className="text-gray-800 pt-2 text-xs">
           Every human being needs basic need. Without it no one can live
           comfortly.But sometime , some people became victim of situation. They
@@ -90,7 +90,7 @@ const Section = () => {
           </form>
         </section>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 lg:pl-4  my-3 lg:my-0">
         {donation.map((donations) => (
           <Card key={donations} donations={donations}></Card>
         ))}
